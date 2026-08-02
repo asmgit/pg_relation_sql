@@ -1,0 +1,26 @@
+name: release
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - id: version
+        run: echo "v=$(grep -oE 'pg_relation_sql [0-9]+\.[0-9]+\.[0-9]+' relation_sql.sql | head -1 | awk '{print $2}')" >> "$GITHUB_OUTPUT"
+      - env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          v='${{ steps.version.outputs.v }}'
+          if gh release view "v$v" --repo "$GITHUB_REPOSITORY" > /dev/null 2>&1; then
+            echo "release v$v already exists"
+            exit 0
+          fi
+          awk -v ver="$v" '$0 ~ "^## " ver " " {f=1; next} /^## / {f=0} f' CHANGELOG.md > notes.md
+          gh release create "v$v" --repo "$GITHUB_REPOSITORY" --title "pg_relation_sql $v" --notes-file notes.md
