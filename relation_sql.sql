@@ -336,7 +336,7 @@ BEGIN
   WITH trg AS (
     SELECT EXISTS (SELECT FROM pg_event_trigger WHERE evtname = 'relation_sql_ddl') installed
       , 'SELECT status, command FROM relation_sql(%L)' cmd
-      , '0.2.0' version
+      , '0.2.1' version
   )
   , agg AS (
     SELECT count(*) FILTER (WHERE status = 'OK') n_ok
