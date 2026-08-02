@@ -121,7 +121,8 @@ BEGIN
         , fc.ref_columns
         , u.one_to_one
         , coalesce(
-          nullif(
+          CASE WHEN f.fk_name LIKE '%\_rel' AND length(f.fk_name) > 4 THEN left(f.fk_name, -4) END
+          , nullif(
             CASE
               WHEN s.sem IS NULL OR w.cut IS NULL THEN NULL
               WHEN s.sem = w.cut THEN ''
@@ -344,7 +345,7 @@ BEGIN
     FROM relation_sql('show')
   )
   , board(status, command) AS (
-    SELECT 'pg_relation_sql 0.1.0 — relation functions generated from foreign keys'
+    SELECT 'pg_relation_sql 0.2.0 — relation functions generated from foreign keys'
       , 'SELECT status, command FROM relation_sql()'
     UNION ALL
     SELECT 'event trigger: ' || CASE WHEN installed THEN 'installed' ELSE 'not installed' END

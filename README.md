@@ -138,7 +138,7 @@ These queries run on the [demo schema](example/README.md) — an ER diagram wher
 ```
                                  status                                 |                        command
 ------------------------------------------------------------------------+-------------------------------------------------------
- pg_relation_sql 0.1.0 — relation functions generated from foreign keys | SELECT status, command FROM relation_sql()
+ pg_relation_sql 0.2.0 — relation functions generated from foreign keys | SELECT status, command FROM relation_sql()
  event trigger: installed                                               | SELECT status, command FROM relation_sql('uninstall')
  relation functions: 16 ok, 0 to sync, 0 foreign, 0 duplicate           | SELECT status, command FROM relation_sql('drop')
  details                                                                | SELECT * FROM relation_sql('show')
@@ -170,6 +170,7 @@ Dropping a table with relation functions requires `DROP TABLE ... CASCADE` — t
 ### Naming rules
 
 - Lookup role = FK column minus the referenced column's name: `(client_id) → (id)` gives `client(document)`; identical names (`client_id → client_id`) subtract the target's PK name instead. Subtraction respects `_`/CamelCase boundaries — `paid` and `clientid` are never mangled.
+- Explicit role: name the FK constraint `<role>_rel` and the role is taken verbatim — `delivery_address_rel` gives `delivery_address(document)`; renaming the constraint renames the relation. ORM-generated names (`_fkey`, `fk_*`) never match the suffix.
 - Composite FK: the semantic column is the one referencing the target's single-column PK — `(org_id, customer_id) → (org_id, id)` gives `customer`. Both keys composite — the shared context columns are discarded: `from_warehouse` / `to_warehouse`.
 - No semantic column left (a column named just `id`) — the referenced table name: `profile(profile_extra)`.
 - List: `<referencing_table>_list` — `document_item_list(document)`; the same name over different argument types is plain overloading.

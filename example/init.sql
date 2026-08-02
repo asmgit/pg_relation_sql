@@ -41,7 +41,8 @@ CREATE TABLE document (
   , delivery_address_id BIGINT
   , doc_number TEXT NOT NULL UNIQUE
   , issued_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
-  , CONSTRAINT document_delivery_address_id_client_id_fkey
+  -- the _rel suffix sets the relation role explicitly: delivery_address(document)
+  , CONSTRAINT delivery_address_rel
     FOREIGN KEY (delivery_address_id, client_id) REFERENCES address (id, profile_id)
 );
 
