@@ -336,6 +336,7 @@ BEGIN
   WITH trg AS (
     SELECT EXISTS (SELECT FROM pg_event_trigger WHERE evtname = 'relation_sql_ddl') installed
       , 'SELECT status, command FROM relation_sql(%L)' cmd
+      , '0.2.0' version
   )
   , agg AS (
     SELECT count(*) FILTER (WHERE status = 'OK') n_ok
@@ -345,8 +346,9 @@ BEGIN
     FROM relation_sql('show')
   )
   , board(status, command) AS (
-    SELECT 'pg_relation_sql 0.2.0 — relation functions generated from foreign keys'
+    SELECT 'pg_relation_sql ' || version || ' — relation functions generated from foreign keys'
       , 'SELECT status, command FROM relation_sql()'
+    FROM trg
     UNION ALL
     SELECT 'event trigger: ' || CASE WHEN installed THEN 'installed' ELSE 'not installed' END
       , format(cmd, CASE WHEN installed THEN 'uninstall' ELSE 'install' END)
