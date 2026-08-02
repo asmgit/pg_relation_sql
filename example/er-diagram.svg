@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="24 44 982 616" font-family="system-ui, sans-serif">
+<rect x="24" y="44" width="982" height="616" fill="#fcfcfb"/>
+<marker id="lk" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2a78d6"/></marker>
+<marker id="ls" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#eb6834"/></marker>
+<path d="M 155 330 L 155 112 L 300 112" fill="none" stroke="#7a786f" stroke-width="1.8"/>
+<circle cx="155" cy="306" r="5" fill="#fcfcfb" stroke="#7a786f" stroke-width="2.2"/><line x1="147" y1="318" x2="163" y2="318" stroke="#7a786f" stroke-width="2.2"/>
+<line x1="290" y1="120" x2="290" y2="104" stroke="#7a786f" stroke-width="2.2"/><line x1="283" y1="120" x2="283" y2="104" stroke="#7a786f" stroke-width="2.2"/>
+<text x="227" y="105" font-family="ui-monospace, Menlo, monospace" font-size="14" font-weight="650" fill="#2a78d6" text-anchor="middle" paint-order="stroke" stroke="#fcfcfb" stroke-width="5">profile</text><line x1="264" y1="100" x2="280" y2="100" stroke="#2a78d6" stroke-width="2" marker-end="url(#lk)"/>
+<text x="171" y="226" font-family="ui-monospace, Menlo, monospace" font-size="14" font-weight="650" fill="#eb6834" text-anchor="start" paint-order="stroke" stroke="#fcfcfb" stroke-width="5">profile_detail</text><line x1="163" y1="213" x2="163" y2="229" stroke="#eb6834" stroke-width="2" marker-end="url(#ls)"/>
+<line x1="530" y1="95" x2="760" y2="95" stroke="#7a786f" stroke-width="1.8"/>
+<line x1="744" y1="95" x2="760" y2="104" stroke="#7a786f" stroke-width="2.2"/><line x1="744" y1="95" x2="760" y2="95" stroke="#7a786f" stroke-width="2.2"/><line x1="744" y1="95" x2="760" y2="86" stroke="#7a786f" stroke-width="2.2"/><circle cx="733" cy="95" r="5" fill="#fcfcfb" stroke="#7a786f" stroke-width="2.2"/>
+<line x1="540" y1="87" x2="540" y2="103" stroke="#7a786f" stroke-width="2.2"/><line x1="547" y1="87" x2="547" y2="103" stroke="#7a786f" stroke-width="2.2"/>
+<text x="645" y="88" font-family="ui-monospace, Menlo, monospace" font-size="14" font-weight="650" fill="#2a78d6" text-anchor="middle" paint-order="stroke" stroke="#fcfcfb" stroke-width="5">client</text><line x1="612" y1="83" x2="596" y2="83" stroke="#2a78d6" stroke-width="2" marker-end="url(#lk)"/>
+<text x="645" y="112" font-family="ui-monospace, Menlo, monospace" font-size="14" font-weight="650" fill="#eb6834" text-anchor="middle" paint-order="stroke" stroke="#fcfcfb" stroke-width="5">client_document_list</text><line x1="737" y1="107" x2="753" y2="107" stroke="#eb6834" stroke-width="2" marker-end="url(#ls)"/>
+<line x1="530" y1="160" x2="760" y2="160" stroke="#7a786f" stroke-width="1.8"/>
+<line x1="744" y1="160" x2="760" y2="169" stroke="#7a786f" stroke-width="2.2"/><line x1="744" y1="160" x2="760" y2="160" stroke="#7a786f" stroke-width="2.2"/><line x1="744" y1="160" x2="760" y2="151" stroke="#7a786f" stroke-width="2.2"/><circle cx="733" cy="160" r="5" fill="#fcfcfb" stroke="#7a786f" stroke-width="2.2"/>
+<circle cx="554" cy="160" r="5" fill="#fcfcfb" stroke="#7a786f" stroke-width="2.2"/><line x1="542" y1="152" x2="542" y2="168" stroke="#7a786f" stroke-width="2.2"/>
+<text x="645" y="153" font-family="ui-monospace, Menlo, monospace" font-size="14" font-weight="650" fill="#2a78d6" text-anchor="middle" paint-order="stroke" stroke="#fcfcfb" stroke-width="5">manager</text><line x1="608" y1="148" x2="592" y2="148" stroke="#2a78d6" stroke-width="2" marker-end="url(#lk)"/>
+<text x="645" y="177" font-family="ui-monospace, Menlo, monospace" font-size="14" font-weight="650" fill="#eb6834" text-anchor="middle" paint-order="stroke" stroke="#fcfcfb" stroke-width="5">manager_document_list</text><line x1="741" y1="172" x2="757" y2="172" stroke="#eb6834" stroke-width="2" marker-end="url(#ls)"/>
+<line x1="415" y1="246" x2="415" y2="524" stroke="#7a786f" stroke-width="1.8"/>
+<line x1="423" y1="256" x2="407" y2="256" stroke="#7a786f" stroke-width="2.2"/><line x1="423" y1="263" x2="407" y2="263" stroke="#7a786f" stroke-width="2.2"/>
+<line x1="415" y1="508" x2="406" y2="524" stroke="#7a786f" stroke-width="2.2"/><line x1="415" y1="508" x2="415" y2="524" stroke="#7a786f" stroke-width="2.2"/><line x1="415" y1="508" x2="424" y2="524" stroke="#7a786f" stroke-width="2.2"/><circle cx="415" cy="497" r="5" fill="#fcfcfb" stroke="#7a786f" stroke-width="2.2"/>
+<text x="399" y="390" font-family="ui-monospace, Menlo, monospace" font-size="14" font-weight="650" fill="#2a78d6" text-anchor="end" paint-order="stroke" stroke="#fcfcfb" stroke-width="5">profile</text><line x1="407" y1="393" x2="407" y2="377" stroke="#2a78d6" stroke-width="2" marker-end="url(#lk)"/>
+<text x="431" y="390" font-family="ui-monospace, Menlo, monospace" font-size="14" font-weight="650" fill="#eb6834" text-anchor="start" paint-order="stroke" stroke="#fcfcfb" stroke-width="5">address_list</text><line x1="423" y1="377" x2="423" y2="393" stroke="#eb6834" stroke-width="2" marker-end="url(#ls)"/>
+<line x1="875" y1="224" x2="875" y2="314" stroke="#7a786f" stroke-width="1.8"/>
+<line x1="883" y1="234" x2="867" y2="234" stroke="#7a786f" stroke-width="2.2"/><line x1="883" y1="241" x2="867" y2="241" stroke="#7a786f" stroke-width="2.2"/>
+<line x1="875" y1="298" x2="866" y2="314" stroke="#7a786f" stroke-width="2.2"/><line x1="875" y1="298" x2="875" y2="314" stroke="#7a786f" stroke-width="2.2"/><line x1="875" y1="298" x2="884" y2="314" stroke="#7a786f" stroke-width="2.2"/><circle cx="875" cy="287" r="5" fill="#fcfcfb" stroke="#7a786f" stroke-width="2.2"/>
+<text x="891" y="274" font-family="ui-monospace, Menlo, monospace" font-size="14" font-weight="650" fill="#2a78d6" text-anchor="start" paint-order="stroke" stroke="#fcfcfb" stroke-width="5">document</text><line x1="883" y1="277" x2="883" y2="261" stroke="#2a78d6" stroke-width="2" marker-end="url(#lk)"/>
+<text x="859" y="274" font-family="ui-monospace, Menlo, monospace" font-size="14" font-weight="650" fill="#eb6834" text-anchor="end" paint-order="stroke" stroke="#fcfcfb" stroke-width="5">document_item_list</text><line x1="867" y1="261" x2="867" y2="277" stroke="#eb6834" stroke-width="2" marker-end="url(#ls)"/>
+<line x1="875" y1="412" x2="875" y2="502" stroke="#7a786f" stroke-width="1.8"/>
+<line x1="875" y1="428" x2="884" y2="412" stroke="#7a786f" stroke-width="2.2"/><line x1="875" y1="428" x2="875" y2="412" stroke="#7a786f" stroke-width="2.2"/><line x1="875" y1="428" x2="866" y2="412" stroke="#7a786f" stroke-width="2.2"/><circle cx="875" cy="439" r="5" fill="#fcfcfb" stroke="#7a786f" stroke-width="2.2"/>
+<line x1="867" y1="492" x2="883" y2="492" stroke="#7a786f" stroke-width="2.2"/><line x1="867" y1="485" x2="883" y2="485" stroke="#7a786f" stroke-width="2.2"/>
+<text x="891" y="462" font-family="ui-monospace, Menlo, monospace" font-size="14" font-weight="650" fill="#2a78d6" text-anchor="start" paint-order="stroke" stroke="#fcfcfb" stroke-width="5">item</text><line x1="883" y1="449" x2="883" y2="465" stroke="#2a78d6" stroke-width="2" marker-end="url(#lk)"/>
+<text x="859" y="462" font-family="ui-monospace, Menlo, monospace" font-size="14" font-weight="650" fill="#eb6834" text-anchor="end" paint-order="stroke" stroke="#fcfcfb" stroke-width="5">document_item_list</text><line x1="867" y1="465" x2="867" y2="449" stroke="#eb6834" stroke-width="2" marker-end="url(#ls)"/>
+<path d="M 760 205 L 645 205 L 645 470 L 460 470 L 460 524" fill="none" stroke="#7a786f" stroke-width="1.8"/>
+<line x1="744" y1="205" x2="760" y2="214" stroke="#7a786f" stroke-width="2.2"/><line x1="744" y1="205" x2="760" y2="205" stroke="#7a786f" stroke-width="2.2"/><line x1="744" y1="205" x2="760" y2="196" stroke="#7a786f" stroke-width="2.2"/><circle cx="733" cy="205" r="5" fill="#fcfcfb" stroke="#7a786f" stroke-width="2.2"/>
+<circle cx="460" cy="500" r="5" fill="#fcfcfb" stroke="#7a786f" stroke-width="2.2"/><line x1="452" y1="512" x2="468" y2="512" stroke="#7a786f" stroke-width="2.2"/>
+<text x="629" y="315" font-family="ui-monospace, Menlo, monospace" font-size="14" font-weight="650" fill="#2a78d6" text-anchor="end" paint-order="stroke" stroke="#fcfcfb" stroke-width="5">delivery_address</text><line x1="637" y1="302" x2="637" y2="318" stroke="#2a78d6" stroke-width="2" marker-end="url(#lk)"/>
+<text x="629" y="267" font-family="ui-monospace, Menlo, monospace" font-size="14" font-weight="650" fill="#eb6834" text-anchor="end" paint-order="stroke" stroke="#fcfcfb" stroke-width="5">document_list</text><line x1="637" y1="270" x2="637" y2="254" stroke="#eb6834" stroke-width="2" marker-end="url(#ls)"/>
+<path d="M 760 530 C 675 505, 675 625, 760 600" fill="none" stroke="#7a786f" stroke-width="1.8"/>
+<circle cx="737" cy="523" r="5" fill="#fcfcfb" stroke="#7a786f" stroke-width="2.2"/><line x1="746" y1="534" x2="751" y2="519" stroke="#7a786f" stroke-width="2.2"/>
+<line x1="745" y1="605" x2="763" y2="609" stroke="#7a786f" stroke-width="2.2"/><line x1="745" y1="605" x2="760" y2="600" stroke="#7a786f" stroke-width="2.2"/><line x1="745" y1="605" x2="757" y2="591" stroke="#7a786f" stroke-width="2.2"/><circle cx="734" cy="608" r="5" fill="#fcfcfb" stroke="#7a786f" stroke-width="2.2"/>
+<text x="662" y="549" font-family="ui-monospace, Menlo, monospace" font-size="14" font-weight="650" fill="#2a78d6" text-anchor="end" paint-order="stroke" stroke="#fcfcfb" stroke-width="5">parent_item</text>
+<line x1="670" y1="544" x2="686" y2="544" stroke="#2a78d6" stroke-width="2" marker-end="url(#lk)"/>
+<text x="662" y="599" font-family="ui-monospace, Menlo, monospace" font-size="14" font-weight="650" fill="#eb6834" text-anchor="end" paint-order="stroke" stroke="#fcfcfb" stroke-width="5">item_list</text>
+<line x1="670" y1="594" x2="686" y2="594" stroke="#eb6834" stroke-width="2" marker-end="url(#ls)"/>
+<rect x="40" y="330" width="230" height="98" rx="9" fill="#ffffff" stroke="#c9c6bb" stroke-width="1.5"/>
+<rect x="41" y="331" width="228" height="31" rx="8" fill="#f1f0ec"/>
+<path d="M 40 362 h 230" stroke="#c9c6bb" stroke-width="1"/>
+<text x="155.0" y="352" font-size="16" font-weight="700" fill="#0b0b0b" text-anchor="middle">profile_detail</text>
+<text x="52" y="378" font-family="ui-monospace, Menlo, monospace" font-size="13.5" font-weight="bold" fill="#0b0b0b">profile_id</text>
+<text x="260" y="378" font-size="11" fill="#52514e" text-anchor="end">PK FK</text>
+<text x="52" y="400" font-family="ui-monospace, Menlo, monospace" font-size="13.5" font-weight="normal" fill="#0b0b0b">bio</text>
+<text x="52" y="422" font-family="ui-monospace, Menlo, monospace" font-size="13.5" font-weight="normal" fill="#0b0b0b">phone</text>
+<rect x="300" y="60" width="230" height="186" rx="9" fill="#ffffff" stroke="#c9c6bb" stroke-width="1.5"/>
+<rect x="301" y="61" width="228" height="31" rx="8" fill="#f1f0ec"/>
+<path d="M 300 92 h 230" stroke="#c9c6bb" stroke-width="1"/>
+<text x="415.0" y="82" font-size="16" font-weight="700" fill="#0b0b0b" text-anchor="middle">profile</text>
+<text x="312" y="108" font-family="ui-monospace, Menlo, monospace" font-size="13.5" font-weight="bold" fill="#0b0b0b">id</text>
+<text x="520" y="108" font-size="11" fill="#52514e" text-anchor="end">PK</text>
+<text x="312" y="130" font-family="ui-monospace, Menlo, monospace" font-size="13.5" font-weight="normal" fill="#0b0b0b">email</text>
+<text x="520" y="130" font-size="11" fill="#52514e" text-anchor="end">UQ</text>
+<text x="312" y="152" font-family="ui-monospace, Menlo, monospace" font-size="13.5" font-weight="normal" fill="#0b0b0b">name</text>
+<text x="312" y="174" font-family="ui-monospace, Menlo, monospace" font-size="13.5" font-weight="normal" fill="#0b0b0b">type</text>
+<text x="312" y="196" font-family="ui-monospace, Menlo, monospace" font-size="13.5" font-weight="normal" fill="#0b0b0b">client_id</text>
+<text x="520" y="196" font-size="11" fill="#52514e" text-anchor="end">UQ</text>
+<text x="312" y="218" font-family="ui-monospace, Menlo, monospace" font-size="13.5" font-weight="normal" fill="#0b0b0b">manager_id</text>
+<text x="520" y="218" font-size="11" fill="#52514e" text-anchor="end">UQ</text>
+<text x="312" y="240" font-family="ui-monospace, Menlo, monospace" font-size="13.5" font-weight="normal" fill="#0b0b0b">created_at</text>
+<rect x="760" y="60" width="230" height="164" rx="9" fill="#ffffff" stroke="#c9c6bb" stroke-width="1.5"/>
+<rect x="761" y="61" width="228" height="31" rx="8" fill="#f1f0ec"/>
+<path d="M 760 92 h 230" stroke="#c9c6bb" stroke-width="1"/>
+<text x="875.0" y="82" font-size="16" font-weight="700" fill="#0b0b0b" text-anchor="middle">document</text>
+<text x="772" y="108" font-family="ui-monospace, Menlo, monospace" font-size="13.5" font-weight="bold" fill="#0b0b0b">id</text>
+<text x="980" y="108" font-size="11" fill="#52514e" text-anchor="end">PK</text>
+<text x="772" y="130" font-family="ui-monospace, Menlo, monospace" font-size="13.5" font-weight="normal" fill="#0b0b0b">client_id</text>
+<text x="980" y="130" font-size="11" fill="#52514e" text-anchor="end">FK</text>
+<text x="772" y="152" font-family="ui-monospace, Menlo, monospace" font-size="13.5" font-weight="normal" fill="#0b0b0b">manager_id</text>
+<text x="980" y="152" font-size="11" fill="#52514e" text-anchor="end">FK</text>
+<text x="772" y="174" font-family="ui-monospace, Menlo, monospace" font-size="13.5" font-weight="normal" fill="#0b0b0b">delivery_address_id</text>
+<text x="980" y="174" font-size="11" fill="#52514e" text-anchor="end">FK</text>
+<text x="772" y="196" font-family="ui-monospace, Menlo, monospace" font-size="13.5" font-weight="normal" fill="#0b0b0b">doc_number</text>
+<text x="980" y="196" font-size="11" fill="#52514e" text-anchor="end">UQ</text>
+<text x="772" y="218" font-family="ui-monospace, Menlo, monospace" font-size="13.5" font-weight="normal" fill="#0b0b0b">issued_at</text>
+<rect x="300" y="524" width="230" height="120" rx="9" fill="#ffffff" stroke="#c9c6bb" stroke-width="1.5"/>
+<rect x="301" y="525" width="228" height="31" rx="8" fill="#f1f0ec"/>
+<path d="M 300 556 h 230" stroke="#c9c6bb" stroke-width="1"/>
+<text x="415.0" y="546" font-size="16" font-weight="700" fill="#0b0b0b" text-anchor="middle">address</text>
+<text x="312" y="572" font-family="ui-monospace, Menlo, monospace" font-size="13.5" font-weight="bold" fill="#0b0b0b">id</text>
+<text x="520" y="572" font-size="11" fill="#52514e" text-anchor="end">PK</text>
+<text x="312" y="594" font-family="ui-monospace, Menlo, monospace" font-size="13.5" font-weight="normal" fill="#0b0b0b">profile_id</text>
+<text x="520" y="594" font-size="11" fill="#52514e" text-anchor="end">FK</text>
+<text x="312" y="616" font-family="ui-monospace, Menlo, monospace" font-size="13.5" font-weight="normal" fill="#0b0b0b">city</text>
+<text x="312" y="638" font-family="ui-monospace, Menlo, monospace" font-size="13.5" font-weight="normal" fill="#0b0b0b">street</text>
+<rect x="760" y="314" width="230" height="98" rx="9" fill="#ffffff" stroke="#c9c6bb" stroke-width="1.5"/>
+<rect x="761" y="315" width="228" height="31" rx="8" fill="#f1f0ec"/>
+<path d="M 760 346 h 230" stroke="#c9c6bb" stroke-width="1"/>
+<text x="875.0" y="336" font-size="16" font-weight="700" fill="#0b0b0b" text-anchor="middle">document_item</text>
+<text x="772" y="362" font-family="ui-monospace, Menlo, monospace" font-size="13.5" font-weight="bold" fill="#0b0b0b">document_id</text>
+<text x="980" y="362" font-size="11" fill="#52514e" text-anchor="end">PK FK</text>
+<text x="772" y="384" font-family="ui-monospace, Menlo, monospace" font-size="13.5" font-weight="bold" fill="#0b0b0b">item_id</text>
+<text x="980" y="384" font-size="11" fill="#52514e" text-anchor="end">PK FK</text>
+<text x="772" y="406" font-family="ui-monospace, Menlo, monospace" font-size="13.5" font-weight="normal" fill="#0b0b0b">quantity</text>
+<rect x="760" y="502" width="230" height="142" rx="9" fill="#ffffff" stroke="#c9c6bb" stroke-width="1.5"/>
+<rect x="761" y="503" width="228" height="31" rx="8" fill="#f1f0ec"/>
+<path d="M 760 534 h 230" stroke="#c9c6bb" stroke-width="1"/>
+<text x="875.0" y="524" font-size="16" font-weight="700" fill="#0b0b0b" text-anchor="middle">item</text>
+<text x="772" y="550" font-family="ui-monospace, Menlo, monospace" font-size="13.5" font-weight="bold" fill="#0b0b0b">id</text>
+<text x="980" y="550" font-size="11" fill="#52514e" text-anchor="end">PK</text>
+<text x="772" y="572" font-family="ui-monospace, Menlo, monospace" font-size="13.5" font-weight="normal" fill="#0b0b0b">parent_item_id</text>
+<text x="980" y="572" font-size="11" fill="#52514e" text-anchor="end">FK</text>
+<text x="772" y="594" font-family="ui-monospace, Menlo, monospace" font-size="13.5" font-weight="normal" fill="#0b0b0b">sku</text>
+<text x="980" y="594" font-size="11" fill="#52514e" text-anchor="end">UQ</text>
+<text x="772" y="616" font-family="ui-monospace, Menlo, monospace" font-size="13.5" font-weight="normal" fill="#0b0b0b">name</text>
+<text x="772" y="638" font-family="ui-monospace, Menlo, monospace" font-size="13.5" font-weight="normal" fill="#0b0b0b">price</text>
+<line x1="40" y1="494" x2="88" y2="494" stroke="#7a786f" stroke-width="1.8"/>
+<line x1="78" y1="502" x2="78" y2="486" stroke="#7a786f" stroke-width="2.2"/><line x1="71" y1="502" x2="71" y2="486" stroke="#7a786f" stroke-width="2.2"/>
+<text x="100" y="499" font-size="13.5" fill="#52514e">exactly one</text>
+<line x1="40" y1="530" x2="88" y2="530" stroke="#7a786f" stroke-width="1.8"/>
+<circle cx="64" cy="530" r="5" fill="#fcfcfb" stroke="#7a786f" stroke-width="2.2"/><line x1="76" y1="538" x2="76" y2="522" stroke="#7a786f" stroke-width="2.2"/>
+<text x="100" y="535" font-size="13.5" fill="#52514e">zero or one</text>
+<line x1="40" y1="566" x2="88" y2="566" stroke="#7a786f" stroke-width="1.8"/>
+<line x1="72" y1="566" x2="88" y2="575" stroke="#7a786f" stroke-width="2.2"/><line x1="72" y1="566" x2="88" y2="566" stroke="#7a786f" stroke-width="2.2"/><line x1="72" y1="566" x2="88" y2="557" stroke="#7a786f" stroke-width="2.2"/><circle cx="61" cy="566" r="5" fill="#fcfcfb" stroke="#7a786f" stroke-width="2.2"/>
+<text x="100" y="571" font-size="13.5" fill="#52514e">zero or many</text>
+<line x1="40" y1="602" x2="64" y2="602" stroke="#2a78d6" stroke-width="2" marker-end="url(#lk)"/>
+<text x="78" y="607" font-size="13.5" fill="#52514e">lookup — to one row</text>
+<line x1="40" y1="638" x2="64" y2="638" stroke="#eb6834" stroke-width="2" marker-end="url(#ls)"/>
+<text x="78" y="643" font-size="13.5" fill="#52514e">list — to many rows</text>
+</svg>

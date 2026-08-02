@@ -1,0 +1,12 @@
+services:
+  db:
+    image: postgres:18-alpine
+    shm_size: 256mb
+    environment:
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5440:5432"
+    volumes:
+      - ../example/init.sql:/docker-entrypoint-initdb.d/10_schema.sql:ro
+      - ./bigdata.sql:/docker-entrypoint-initdb.d/15_bigdata.sql:ro
+      - ../relation_sql.sql:/docker-entrypoint-initdb.d/20_relation_sql.sql:ro
