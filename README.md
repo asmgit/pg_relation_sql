@@ -5,9 +5,11 @@
 Every foreign key becomes a pair of SQL functions — lookup and list — fully inlined by the PostgreSQL planner: the function is the relation, its argument is the model. Queries navigate declared relations instead of restating them in every `ON`:
 
 ```sql
-SELECT document.doc_number, client.name, item.name, quantity
+SELECT client.name, profile_detail.phone, delivery_address.city, item.name, quantity
 FROM document
 , client(document)
+, profile_detail(client)
+, delivery_address(document)
 , document_item_list(document)
 , item(document_item_list)
 WHERE document.doc_number = 'DOC-1'
@@ -16,9 +18,11 @@ WHERE document.doc_number = 'DOC-1'
 instead of
 
 ```sql
-SELECT d.doc_number, p.name, i.name, di.quantity
+SELECT p.name, pd.phone, a.city, i.name, di.quantity
 FROM document d
 JOIN profile p ON p.client_id = d.client_id
+JOIN profile_detail pd ON pd.profile_id = p.id
+JOIN address a ON (a.id, a.profile_id) = (d.delivery_address_id, d.client_id)
 JOIN document_item di ON di.document_id = d.id
 JOIN item i ON i.id = di.item_id
 WHERE d.doc_number = 'DOC-1'
@@ -188,7 +192,7 @@ Functions live in the schema of their argument table; cross-schema FKs work; par
 
 ## Demo
 
-No install at all — a [db&lt;&gt;fiddle sandbox](https://dbfiddle.uk/jpxmtrIr) with the demo schema, pre-generated relation functions and five navigation queries.
+No install at all — a [db&lt;&gt;fiddle sandbox](https://dbfiddle.uk/890qIDEG) with the demo schema, pre-generated relation functions and five navigation queries.
 
 Full environment:
 

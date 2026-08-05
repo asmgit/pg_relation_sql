@@ -19,4 +19,4 @@ Files:
 - [init.sql](init.sql) — tables and seed data. Load it, run the [generator](../relation_sql.sql), and all 16 relation functions appear.
 - [query.sql](query.sql) — 19 side-by-side pairs: classic joins vs relation functions, from simple lookups to recursion, DML and set operations.
 
-No install needed to try it — the same schema with pre-generated functions lives in a [db&lt;&gt;fiddle sandbox](https://dbfiddle.uk/jpxmtrIr); the [test environment](../test/README.md) adds bulk data for plan comparisons.
+No install needed to try it — the same schema with pre-generated functions lives in a [db&lt;&gt;fiddle sandbox](https://dbfiddle.uk/890qIDEG); the [test environment](../test/README.md) adds bulk data for plan comparisons.
