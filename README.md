@@ -5,11 +5,11 @@
 Every foreign key becomes a pair of SQL functions — lookup and list — fully inlined by the PostgreSQL planner: the function is the relation, its argument is the model. Queries navigate declared relations instead of restating them in every `ON`:
 
 ```sql
-SELECT document.doc_number, client.name, item.name, document_item.quantity
+SELECT document.doc_number, client.name, item.name, quantity
 FROM document
 , client(document)
-, document_item_list(document) document_item
-, item(document_item)
+, document_item_list(document)
+, item(document_item_list)
 WHERE document.doc_number = 'DOC-1'
 ```
 
