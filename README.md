@@ -5,18 +5,23 @@
 Every foreign key becomes a pair of SQL functions — lookup and list — fully inlined by the PostgreSQL planner: the function is the relation, its argument is the model. Queries navigate declared relations instead of restating them in every `ON`:
 
 ```sql
-SELECT item.name, client.name, document_item.quantity
-FROM document_item, document(document_item), item(document_item), client(document)
+SELECT document.doc_number, client.name, item.name, document_item.quantity
+FROM document
+, client(document)
+, document_item_list(document) document_item
+, item(document_item)
+WHERE document.doc_number = 'DOC-1'
 ```
 
 instead of
 
 ```sql
-SELECT i.name, p.name, di.quantity
-FROM document_item di
-JOIN document d ON d.id = di.document_id
-JOIN item i ON i.id = di.item_id
+SELECT d.doc_number, p.name, i.name, di.quantity
+FROM document d
 JOIN profile p ON p.client_id = d.client_id
+JOIN document_item di ON di.document_id = d.id
+JOIN item i ON i.id = di.item_id
+WHERE d.doc_number = 'DOC-1'
 ```
 
 ## Install
