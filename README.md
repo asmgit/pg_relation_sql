@@ -188,7 +188,7 @@ Functions live in the schema of their argument table; cross-schema FKs work; par
 
 ## Demo
 
-No install at all — a [db&lt;&gt;fiddle sandbox](https://dbfiddle.uk/0dTsWUTZ) with the demo schema, pre-generated relation functions and five navigation queries.
+No install at all — a [db&lt;&gt;fiddle sandbox](https://dbfiddle.uk/jpxmtrIr) with the demo schema, pre-generated relation functions and five navigation queries.
 
 Full environment:
 
