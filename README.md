@@ -15,7 +15,7 @@ FROM document
 WHERE document.doc_number = 'DOC-1'
 ```
 
-instead of
+The planner turns it into exactly the query you would have written by hand ([dbfiddle](https://dbfiddle.uk/U95ODCR7?hide=448)):
 
 ```sql
 SELECT p.name, pd.phone, a.city, i.name, di.quantity
@@ -76,7 +76,13 @@ CREATE TABLE address (
   , profile_id BIGINT REFERENCES profile (id)
   , city TEXT
 );
--- relation_sql generates the pair: the lookup and the list
+-- one sync creates the relation functions the foreign keys call for
+SELECT status, command FROM relation_sql('sync')
+;
+-- or turn autosync on
+SELECT status, command FROM relation_sql('install')
+;
+-- and this is what it created: the lookup and the list
 CREATE FUNCTION profile(address) RETURNS SETOF profile LANGUAGE sql STABLE PARALLEL SAFE
 AS $$ SELECT * FROM public.profile WHERE (id) = (($1).profile_id) $$
 ;
@@ -192,7 +198,7 @@ Functions live in the schema of their argument table; cross-schema FKs work; par
 
 ## Demo
 
-No install at all — a [db&lt;&gt;fiddle sandbox](https://dbfiddle.uk/890qIDEG) with the demo schema, pre-generated relation functions and five navigation queries.
+No install at all — a [db&lt;&gt;fiddle sandbox](https://dbfiddle.uk/U95ODCR7) with the demo schema, pre-generated relation functions, six navigation queries and the two plans side by side.
 
 Full environment:
 
