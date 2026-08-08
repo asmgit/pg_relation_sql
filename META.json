@@ -1,7 +1,7 @@
 {
    "name": "pg_relation_sql",
    "abstract": "Join relations by foreign keys in plain SQL",
-   "description": "Turns every foreign key into a pair of set-returning SQL functions — a lookup that follows the reference and a list that collects the rows pointing back. Queries navigate declared relations instead of restating them in every ON, and the planner inlines the functions, so plans are node-for-node identical to hand-written joins. One plain SQL file, no extension and no C: loading it creates the functions and an optional event trigger that keeps them in sync with DDL.",
+   "description": "Turns every foreign key into a pair of set-returning SQL functions — a lookup that follows the reference and a list that collects the rows pointing back. Queries navigate declared relations instead of restating them in every ON, and the planner inlines the functions, so plans are node-for-node identical to hand-written joins. One plain SQL file: loading it creates the functions and an optional event trigger that keeps them in sync with DDL.",
    "version": "0.2.1",
    "maintainer": [
       "Alexander Melnikov <asmmp@protonmail.com>"
