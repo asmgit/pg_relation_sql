@@ -30,7 +30,7 @@ WHERE d.doc_number = 'DOC-1'
 
 ## Install
 
-One plain SQL file, no extension, PostgreSQL 11+:
+One plain SQL file, no extension:
 
 ```bash
 curl -sf https://raw.githubusercontent.com/asmgit/pg_relation_sql/main/relation_sql.sql | psql postgresql://postgres:postgres@localhost:5432/postgres

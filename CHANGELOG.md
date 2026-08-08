@@ -10,7 +10,7 @@
 ## 0.1.0 — 2026-08-02
 
 - Initial release: relation functions generated from foreign keys.
-- Every FK becomes a pair of inlined SQL functions — lookup (`client(document)`) and list (`client_document_list(profile)`); plans identical to hand-written joins (PostgreSQL 11+).
+- Every FK becomes a pair of inlined SQL functions — lookup (`client(document)`) and list (`client_document_list(profile)`); plans identical to hand-written joins.
 - Single self-installing SQL file: `curl | psql` creates the functions and the DDL-tracking event trigger, prints a dashboard.
 - `relation_sql(mode)`: show / sync / install / uninstall / drop, statuses per FK, COMMENT marker, loud renames, graceful no-superuser install.
 - Demo schema, 19 side-by-side query pairs, docker stand with a 1.35M-row dataset, EXPLAIN walkthroughs.
