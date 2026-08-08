@@ -1,0 +1,49 @@
+{
+   "name": "pg_relation_sql",
+   "abstract": "Join relations by foreign keys in plain SQL",
+   "description": "Turns every foreign key into a pair of set-returning SQL functions — a lookup that follows the reference and a list that collects the rows pointing back. Queries navigate declared relations instead of restating them in every ON, and the planner inlines the functions, so plans are node-for-node identical to hand-written joins. One plain SQL file, no extension and no C: loading it creates the functions and an optional event trigger that keeps them in sync with DDL.",
+   "version": "0.2.1",
+   "maintainer": [
+      "Alexander Melnikov <asmmp@protonmail.com>"
+   ],
+   "license": "postgresql",
+   "prereqs": {
+      "runtime": {
+         "requires": {
+            "PostgreSQL": "11.0.0"
+         }
+      }
+   },
+   "provides": {
+      "pg_relation_sql": {
+         "file": "relation_sql.sql",
+         "docfile": "README.md",
+         "version": "0.2.1",
+         "abstract": "Relation functions generated from foreign keys"
+      }
+   },
+   "resources": {
+      "homepage": "https://github.com/asmgit/pg_relation_sql",
+      "bugtracker": {
+         "web": "https://github.com/asmgit/pg_relation_sql/issues"
+      },
+      "repository": {
+         "url": "https://github.com/asmgit/pg_relation_sql.git",
+         "web": "https://github.com/asmgit/pg_relation_sql",
+         "type": "git"
+      }
+   },
+   "meta-spec": {
+      "version": "1.0.0",
+      "url": "https://pgxn.org/meta/spec.txt"
+   },
+   "tags": [
+      "foreign key",
+      "join",
+      "relations",
+      "sql functions",
+      "inlining",
+      "schema",
+      "code generation"
+   ]
+}
